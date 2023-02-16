@@ -1,3 +1,4 @@
+# my.proxmox.yml
 plugin: community.general.proxmox
 validate_certs: no
 want_facts: true
