@@ -1,11 +1,11 @@
 # my.proxmox.yml
 plugin: community.general.proxmox
 validate_certs: no
-want_facts: true
-qemu_extended_statuses: true
-want_proxmox_nodes_ansible_host: true
-compose:
-  ansible_host_composed: proxmox_ipconfig0.ip | default(proxmox_net0.ip) | ipaddr('address')
+# want_facts: true
+# qemu_extended_statuses: true
+# want_proxmox_nodes_ansible_host: true
+# compose:
+#   ansible_host_composed: proxmox_ipconfig0.ip | default(proxmox_net0.ip) | ipaddr('address')
 
 
 
